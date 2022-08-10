@@ -32,11 +32,8 @@ header {
 
 /* Setting size of an image inside Header */
 .cm-image {
-  border: 2px solid red;
   height: 6em;
   width: 4em;
-  background-image: url("https://github.com/karanrao-github/bput-landing-page/blob/main/images/cm-image.png?raw=true");
-
 }
 
 /* ---- Scroll to Top ---- */
