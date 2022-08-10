@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BPUT-landing page</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/8e2e74d657.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="header">
+    <img src="/BPUT/images/bput-logo.png" alt="bput-logo" class="bput-logo" />
+    <h1 class="bput-name">Biju Patnaik University of Technology (BPUT)</h1>
+    <img src="/BPUT/images/cm-image.png" alt="cm-image" class="cm-image" />
+  </header>
+
+  <!-- Scroll to Top button -->
+  <div class="scrollTop" onclick="scrollToTop();">
+    <img src="/BPUT/images/top-up.png" alt="" class="img-scrolltop">
+  </div>
+
+  <!-- Navigation Tab Bar -->
+  <div class="topnav" id="myTopnav">
+    <a href="#header">Home</a>
+    <a href="#about-us">About Us</a>
+    <a href="#leadership">Leadership</a>
+    <a href="#hall-of-fame">Hall of fame</a>
+    <a href="#gmap">Location</a>
+    <a href="#contact-us">Contact Us</a>
+
+    <!-- Quick links dropdown mega menu -->
+    <div class="dropdown-menu"></div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa-solid fa-bars"></i>
+    </a>
+  </div>
+
+  <!-- Banner Photo Slideshow -->
+  <div class="slideshow-container"></div>
+
+  <!-- About Us -->
+  <section class="about-us" id="about-us">
+    <div class="aboutus-box">
+      <div class="aboutus-box-2">
+        <div class="aboutus-images">
+          <img src="/BPUT-Bootstrap-website/src/images/Event-1.png" alt="" class="img1" />
+          <img src="/BPUT-Bootstrap-website/src/images/Event-2.jpg" alt="" class="img1" />
+        </div>
+        <div class="aboutus-paragraph">
+          <h3 class="aboutus-heading">Journy of BPUT</h3>
+          <div class="gradient-design-element"></div>
+          <p >
+            The Biju Patnaik University of Technology took its birth in the
+            year 2003 with the laying of foundation stone on the auspicious
+            hand of late Dr.A.P.J. Abdul Kalam, the hon’ble President of
+            India. Riding on the chariot of Public-Private Partnership, the
+            University has grown to-day to a big family of 137 colleges and
+            covers all gamut of technical education systems of the country.
+            To-day it is a proud university who offers Ph.D, Master Degree and
+            Undergraduate Degrees in the areas of engineering, management,
+            pharmacy, architecture, planning and many more. To-day it dreams
+            to introduce B-Voc, M-Voc, and Ph.D-Voc to become an effective
+            partner in the national mission skill development. The unique ICT
+            based training programs of the university to reach the unreached
+            is one of the steps out of many of its initiatives of Digital
+            BPUT. In the changing scenario, the university has adopted a model
+            of PPIP(Public-private-Industry-partnership) to make the education
+            more meaningful and relevant, The Unique student and industry
+            friendly unique curriculum of the university introduced recently
+            will help the students and industry to meet the expectations.
+            <br>
+            <br>
+            The university believes in “Think Good, Do Good, Be Good “
+            philosophy and offers education as a service but not as a
+            business. The dynamic model adopted in the university to growing
+            towards its goal for quality in technical education and also
+            provides a true platform to students for quality learning .the
+            big-Dream of the university along with the qualified faculty
+            member, skilled staff and excellent infrastructure make the
+            university the most sought for place of technical education.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Our Leaders -->
+  <div class="container-leader" id="leadership">
+    <h3 class="heading">Our Leader</h3>
+    <div class="gradient-design-element"></div>
+    <div class="leader-sub-container">
+      <div class="row">
+        
+        <!-- Card One -->
+        <div class="card">
+          <div class="cards">
+            <img
+              src="/BPUT/images/chancellor.png"
+              alt="Chancellor"
+              class="img-leader"
+            />
+          </div>
+          <div class="details">
+            <h3 class="position">Chancellor</h3>
+            <p class="name">Governor of Odisha, Prof. Ganeshi Lal</p>
+          </div>
+        </div>
+
+        <!-- Card Two -->
+        <div class="card">
+          <div class="cards">
+            <img
+              src="/BPUT/images/vc-chancellor.png"
+              alt="Vice Chancellor"
+              class="img-leader"
+            />
+          </div>
+          <div class="details">
+            <h3 class="position">Vice Chancellor</h3>
+            <p class="name">Professor (Dr.) Chitaranjan Tripathy</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Hall of fame -->
+    <div class="container-student" id="hall-of-fame">
+      <h3 class="heading">Hall of fame</h3>
+      <div class="gradient-design-element"></div>
+      <div class="student-sub-container">
+        <div class="row">
+
+          <!-- Card One -->
+          <div class="student-card">
+            <div class="student-cards">
+              <img
+                src="/BPUT/images/student-profile.jpg"
+                alt="Chancellor"
+                class="img-student"
+              />
+             
+            </div>
+            <div class="details"> 
+              <p class="student-name">Student Name</p>
+              <h3 class="student-rank"><span class="rank">Rank: </span>1</h3>
+            </div>
+          </div>
+
+          <!-- Card Two -->
+          <div class="student-card">
+            <div class="student-cards">
+              <img
+                src="/BPUT/images/student-profile.jpg"
+                alt="Vice Chancellor"
+                class="img-student"
+              />
+            </div>
+            <div class="details"> 
+              <p class="student-name">Student Name</p>
+              <h3 class="student-rank"><span class="rank">Rank: </span>2</h3>
+            </div>
+          </div>
+
+          <!-- Card Three -->
+          <div class="student-card">
+            <div class="student-cards">
+              <img
+                src="/BPUT/images/student-profile.jpg"
+                alt="Vice Chancellor"
+                class="img-student"
+              />
+            </div>
+            <div class="details"> 
+              <p class="student-name">Student Name</p>
+              <h3 class="student-rank"><span class="rank">Rank: </span>3</h3>
+            </div>
+          </div>
+
+          <!-- Card Four -->
+          <div class="student-card">
+            <div class="student-cards">
+              <img
+                src="/BPUT/images/student-profile.jpg"
+                alt="Vice Chancellor"
+                class="img-student"
+              />
+            </div>
+            <div class="details"> 
+              <p class="student-name">Student Name</p>
+              <h3 class="student-rank"><span class="rank">Rank: </span>4</h3>
+            </div>
+          </div>
+
+          <!-- Card Five-->
+          <div class="student-card">
+            <div class="student-cards">
+              <img
+                src="/BPUT/images/student-profile.jpg"
+                alt="Vice Chancellor"
+                class="img-student"
+              />
+            </div>
+            <div class="details"> 
+              <p class="student-name">Student Name</p>
+              <h3 class="student-rank"><span class="rank">Rank: </span>5</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  <!-- Google Maps -->
+  <div class="maps" id="gmap">
+    <h3 class="maps-heading">BPUT on Google Maps</h3>
+    <div class="gradient-design-element"></div>
+    <div class="container-map">
+      <iframe
+       src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29542.483713997895!2d84.819121!3d22.247269!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1a65b18a67ce93f0!2sBiju%20Patnaik%20University%20of%20Technology%20Rourkela%20Odisha!5e0!3m2!1sen!2sin!4v1659971563668!5m2!1sen!2sin" 
+       width="800" 
+       height="600" 
+       style="border:0;" 
+       allowfullscreen="" 
+       loading="lazy" 
+       referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+
+
+  <!-- Contact Us -->
+  <div class="contact-us" id="contact-us">
+
+    <!-- Social Media Apps-->
+    <div class="container-contact">
+    <h3 class="contact-us-heading">Follow Us On <span class="socialmedia">#socialmedia</span></h3>
+      <i class="fa-brands fa-square-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+
+    <!-- Address -->
+    <div class="container-contact">
+    <h3 class="contact-us-heading">Our Contacts</h3>
+      <p class="contact-address">
+        Biju Patnaik University of Technology (BPUT)
+        Chhend Colony, Rourkela, Odisha-769015 <br> Phone : (0661) 2482556, Fax :
+        (0661) 2482562,<br>
+         For Examination related enquiry call on (0661)2482560 
+      </p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-line">Developer's Details</div>
+    
+    <!-- Github -->
+    <div class="footer-icon">
+      <a href="https://github.com/karanrao-github" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+      <!-- Linkedin -->
+    <a href="https://www.linkedin.com/in/karan-rao-175b06223/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+
+    <!-- Twitter -->
+      <a href="https://twitter.com/Karan__ronin" target="_blank"><i class="fa-brands fa-twitter"></i></a>  
+    </div>
+  </footer>
+</body>
+
+</html>

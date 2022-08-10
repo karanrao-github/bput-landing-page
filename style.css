@@ -1,0 +1,654 @@
+body {
+  margin: 0;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+background-color: #151320;
+
+}
+
+/* ---- Header ---- */
+header {
+  background: linear-gradient(to right, #11998e, #38ef7d); 
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 0;
+  width: 100%;
+}
+
+/* Style the College name inside Header */
+.bput-name {
+  text-align: center;
+  padding: 0.5em;
+  font-size: 2em;
+}
+
+/* Setting size of College logo inside Header */
+.bput-logo {
+  height: 6em;
+  width: 6em;
+}
+
+/* Setting size of an image inside Header */
+.cm-image {
+  height: 6em;
+  width: 4em;
+}
+
+/* ---- Scroll to Top ---- */
+.scrollTop {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  border-radius: 50%;
+  background-size: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  z-index: 10000;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.scrollTop.active {
+  bottom: 40px;
+  visibility: visible;
+  opacity: 1;
+}
+
+.img-scrolltop {
+  height: 40px;
+  width: 40px;
+}
+
+
+/* ---- Navigation Bar ---- */
+.topnav {
+  background: linear-gradient(to right, #11998e, #38ef7d); 
+  overflow: hidden;
+  border-radius: 0 0 12px 12px;
+  /* margin: 0.2em 1em; */
+  box-shadow: 0px 2.7px 2px rgba(0, 0, 0, 0.028),
+    0px 6.9px 5px rgba(0, 0, 0, 0.04), 0px 14.2px 10.3px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  font-weight: 525;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 4px 8px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(195, 238, 152);
+  color: black;
+  padding: 14px 16px;
+  border-radius: 10px;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  /* background: linear-gradient(
+    45deg,
+    rgba(222, 67, 134, 1) 0%,
+    rgba(176, 80, 190, 1) 45%,
+    rgba(100, 74, 212, 1) 85%
+  ); */
+  background-color: #151320;
+  color: white;
+  border-radius: 12px;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* ----- Banner Image Slideshow -----  */
+.slideshow-container {
+  height: 500px;
+  margin: 1em 2em;
+  background-size: 100% 100%;
+  border-radius: 20px;
+  background-image: url("https://github.com/karanrao-github/bput-landing-page/blob/main/images/Event-1.png?raw=true");
+  box-shadow: 0px 2.7px 2px rgba(0, 0, 0, 0.468),
+    0px 6.9px 5px rgba(0, 0, 0, 0.351), 0px 14.2px 10.3px rgba(0, 0, 0, 0.136);
+  animation: slider 12s infinite linear;
+}
+
+/* To automatically change images in specific time intervals */
+@keyframes slider {
+  0% {
+    background-image: url("https://github.com/karanrao-github/bput-landing-page/blob/main/images/Event-1.png?raw=true");
+  }
+
+  25% {
+    background-image: url("https://github.com/karanrao-github/bput-landing-page/blob/main/images/Event-2.jpg?raw=true");
+  }
+
+  75% {
+    background-image: url("https://github.com/karanrao-github/bput-landing-page/blob/main/images/Event-3.jpg?raw=true");
+  }
+
+  100% {
+    background-image: url("https://github.com/karanrao-github/bput-landing-page/blob/main/images/Event-ad-4.png?raw=true");
+  }
+}
+
+/* ------ About Us ------ */
+.aboutus-box {
+  padding: 5% 7%;
+  display: flex;
+  flex-direction: row;
+background-color: #151320;
+
+}
+
+.aboutus-box-2 {
+  background-color: #1c1b29;
+  box-shadow: 0 0 5px rgba(40, 38, 38, 0.871), 0px 0.5px 0 rgba(40, 36, 36, 0.832), 0 0 10px rgba(17, 16, 16, 0.907);
+  padding: 3% 2%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  
+}
+
+.aboutus-images {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.img1 {
+  width: 40%;
+  height: 120%;
+  border-radius: 10px;
+}
+
+.aboutus-heading {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: #eb427e;
+}
+
+p {
+  margin-top: -3%;
+  text-align: left;
+  color: #c8c1c1;
+}
+
+/* ---- Our Leaders ---- */
+
+.container-leader {
+  background-color: #151320;
+  border-bottom: 5px solid #151320;
+  padding-bottom: 6%;
+}
+
+.heading {
+  font-size: 3rem;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 5%;
+  margin-bottom: 20px;
+}
+
+.leader-sub-container {
+  margin: 2rem;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  background-color: #1c1b29;
+  position: relative;
+  flex: auto;
+  max-width: 250px;
+  max-height: 350px;
+  margin: 2rem;
+  border-radius: 10px;
+  box-shadow: 
+  0 0 5px rgba(40, 38, 38, 0.871),
+  0px 0.5px 0 rgba(40, 36, 36, 0.832), 
+  0 0 10px rgba(17, 16, 16, 0.907); 
+}
+
+.cards {
+  width: 100%;
+  height: 70%;
+  border-radius: 10px 10px 0 0;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.img-leader {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.details {
+  padding: 20px 10px;
+}
+
+.details > .position {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.details > .name {
+  text-align: center;
+  color: #a0a0a0;
+  font-size: 15px;
+  line-height: 20px;
+  margin-top: -10px;
+  font-weight: 400;
+}
+
+/* ----- Hall of Fame ----- */
+.container-student {
+  background-color: #151320;  
+  border: #151320 5px solid;
+  padding-bottom: 8%;
+
+}
+
+.student-sub-container{
+   margin: 20px;
+}
+
+.row {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+
+.student-card {
+  background-color: #1c1b29;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+   position: relative;
+   flex: auto;
+   max-width: 250px;
+   height: 350px;
+   margin: 30px;
+   border-radius: 10px;
+   box-shadow: 
+       0 0 5px rgba(40, 38, 38, 0.871),
+       0px 0.5px 0 rgba(40, 36, 36, 0.832),
+       0 0 10px rgba(17, 16, 16, 0.907);
+}
+
+.student-cards{
+  width: 100%;
+  height: 70%;
+   border-radius: 10px;
+   background-color: #1c1b29;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.img-student {
+width: 80%;
+height: 90%;
+border-radius: 10px;
+}
+
+.rank {
+  color: aliceblue;
+  font-size: 40px;
+}
+
+.student-rank {
+  color: #ffcc02;
+  font-weight: 600;
+  font-size: 60px;
+  text-align: center; 
+  margin: 0;
+
+}
+
+.student-name {
+  text-align: center;
+  color: #a0a0a0;
+  font-size: 20px;
+  margin: 0;
+  font-weight: 400;
+  
+}
+
+/* ----- Maps ----- */
+.maps {
+  background-color: #151320;  
+  border-top: #151320 5px solid;
+  padding-bottom: 8%;
+  padding-top: 5%;
+
+}
+
+.container-map {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+iframe {
+  width: 90%;
+  height: 450px;
+  border-radius: 20px;
+}
+
+
+/* ----- Contect Us Section ----- */
+.contact-us {
+  background-color: #151320; 
+  display: flex;
+  flex-direction: row;
+  border-top: 2px solid rgb(255, 255, 255);
+  padding: 2%;
+}
+
+.container-contact {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+/* Heading on Contact Us Section */
+.contact-us-heading {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 58px;
+  color: rgb(116, 232, 232);
+  text-align: left;
+  margin: 0;
+  font-weight: 600;
+}
+
+/* Glowing social media --> '#socialmedia' */
+.socialmedia {
+  font-family: "fira code", monospace;
+  font-size: 25px;
+  font-weight: 600;
+  color: #eb427e;
+  background: greenyellow; 
+  box-shadow: 0 0 10px greenyellow; 
+border-radius: 5px;
+padding-inline: 10px;
+}
+
+/* Social Media icons */
+.fa-brands {
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+/* -- Hovers fot Icons -- */
+/* Facebook */
+.fa-square-facebook:hover {
+  color: #4267B2;
+}
+
+/* Youtube */
+.fa-youtube:hover {
+  color: #FF0000;
+}
+
+/* Twitter */
+.fa-twitter:hover {
+  color: #1DA1F2;
+}
+
+/* LinkedIn */
+.fa-linkedin:hover {
+  color:  #0A66C2;
+}
+
+/* GitHub */
+.fa-github:hover {
+  color: rgb(144, 15, 144);
+}
+.contact-address {
+  color: #fff;
+  line-height: 30px;
+}
+
+/* Address */
+.contact-address {
+  margin-top: 1%;
+}
+
+.heading,
+.quicklinks-heading,
+.maps-heading {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 58px;
+  color: #eb427e;
+  text-align: center;
+  margin: 0;
+}
+
+.gradient-design-element {
+  width: 7rem;
+  height: 5px;
+  border-radius: 5px;
+  background: linear-gradient(
+    90deg,
+    rgba(222, 67, 134, 1) 0%,
+    rgba(176, 80, 190, 1) 45%,
+    rgba(100, 74, 212, 1) 85%
+  );
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+/* ----- Footer ----- */
+footer {
+    background: linear-gradient(to right, #11998e , #38ef7d ); 
+    border-radius: 20px 20px 0 0;
+}
+
+.footer-line {
+  color: #0e0d0d;
+  font-size: 18px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 15px;
+}
+.footer-icon {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+/* *--------- Responsive Code --------------- */
+
+@media screen and (max-width: 900px) {
+
+  /* ----- Header ----- */
+  header {
+    padding: 1em;
+  }
+
+  .bput-name {
+    text-align: center;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .bput-logo {
+    height: 5em;
+    width: 5em;
+  }
+
+  .cm-image {
+    height: 6em;
+    width: 4em;
+    padding-right: 2em;
+  }
+
+  /* ----- SlideShow ----- */
+  .slideshow-container {
+    height: 300px;
+    border-radius: 5px;
+    margin: 1em 0.9em;
+  }
+
+}
+
+/* ----- Hall of fame ----- */
+@media (max-width:800px) {
+  .student-card {
+    margin-left: auto;
+    margin-right: auto;
+      flex: 100%;
+      max-width: 200px;
+      height: 300px;
+  }
+
+  student-rank {
+    font-size: 24px;
+ }
+ 
+ .student-name {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+ }
+
+ .rank {
+    font-size: 30px;
+  }
+ 
+  .student-rank {
+ font-size: 40px;
+ 
+ }
+
+ 
+/* ----- About BPUT ----- */
+ .aboutus-box {
+  padding: 2% 2%;
+}
+
+.aboutus-box-2 {
+  flex-wrap: wrap;
+  margin: 20px 10px;
+}
+
+.aboutus-images {
+  flex-direction: column;
+}
+
+.img1 {
+  width: 100%;
+  margin-bottom: 10px;
+
+}
+
+/* ----- Leader Section ----- */
+.card {
+  margin-left: auto;
+  margin-right: auto;
+    flex: 100%;
+    max-width: 200px;
+    height: 300px;
+}
+
+.details > .position {
+  font-size: 15px;
+}
+
+.details > .name {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+}
+
+@media (max-width: 800px) {
+  /* ----- Contact Us Section ----- */
+.contact-us {
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+  .container-contact {
+    width: 100%;
+  }
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
