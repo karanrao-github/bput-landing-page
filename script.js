@@ -21,3 +21,21 @@ function scrollToTop() {
     behavior: 'smooth'
   })
 }
+
+
+/* Pop UP */
+// Shows popup in 3s after load 
+window.addEventListener('load', function () {
+  setTimeout(
+    function open(event) {
+      document.querySelector(".popup").style.display = "block";
+    }, 
+    2000
+  )
+});
+
+// Click function to remove the popup
+document.querySelector("#close").addEventListener
+("click", function(){
+  document.querySelector(".popup").style.display = "none";
+});
