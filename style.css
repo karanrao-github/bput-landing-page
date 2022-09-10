@@ -3,12 +3,11 @@ body {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   background-color: #151320;
-
 }
 
 /* ---- Header ---- */
 header {
-  background:  #5aa49e;
+  background: #5aa49e;
   color: #ffff;
   display: flex;
   justify-content: center;
@@ -75,7 +74,7 @@ header {
 
 /* Contains image, cancel btn, heading and paragraph */
 .popupBox {
-  background:  #5aa49e;
+  background: #5aa49e;
   border: 2px solid #5aa49e;
   max-width: 100%;
   border-radius: 20px;
@@ -88,7 +87,7 @@ header {
   display: block;
   font-size: 20px;
   margin: 0 0 20px auto;
-background-color: transparent;
+  background-color: transparent;
   position: fixed;
   z-index: 100;
   right: 10px;
@@ -97,7 +96,6 @@ background-color: transparent;
   border: none;
   outline: none;
   color: #c5c5c5;
-
 }
 
 /* Image in Popup */
@@ -107,19 +105,19 @@ background-color: transparent;
 
 /* Contains Heading and Paragraph */
 .popup-content {
-  margin: 2%;
   color: #000;
-  line-height: 25px;
+  line-height: 1.5;
+  padding: .5rem;
 }
 
 /* Heading Style */
-.popup-heading{
+.popup-heading {
   text-align: center;
   font-size: 35px;
 }
 
 .popup-content-para {
-  text-align: justify;
+  text-align: left;
   font-weight: 600;
 }
 
@@ -128,12 +126,9 @@ background-color: transparent;
   max-width: 250px;
 }
 
-
-
-
 /* ---- Navigation Bar ---- */
 .topnav {
-  background:  #5aa49e;
+  background: #5aa49e;
   overflow: hidden;
   border-radius: 0 0 12px 12px;
   box-shadow: 0px 2.7px 2px rgba(0, 0, 0, 0.028),
@@ -218,7 +213,8 @@ background-color: transparent;
 
 .aboutus-box-2 {
   background-color: #1c1b29;
-  box-shadow: 0 0 5px rgba(40, 38, 38, 0.871), 0px 0.5px 0 rgba(40, 36, 36, 0.832), 0 0 10px rgba(17, 16, 16, 0.907);
+  box-shadow: 0 0 5px rgba(40, 38, 38, 0.871),
+    0px 0.5px 0 rgba(40, 36, 36, 0.832), 0 0 10px rgba(17, 16, 16, 0.907);
   padding: 3% 2%;
   display: flex;
   flex-direction: column;
@@ -289,10 +285,8 @@ background-color: transparent;
   max-height: 350px;
   margin: 2rem;
   border-radius: 10px;
-  box-shadow:
-    0 0 5px rgba(40, 38, 38, 0.871),
-    0px 0.5px 0 rgba(40, 36, 36, 0.832),
-    0 0 10px rgba(17, 16, 16, 0.907);
+  box-shadow: 0 0 5px rgba(40, 38, 38, 0.871),
+    0px 0.5px 0 rgba(40, 36, 36, 0.832), 0 0 10px rgba(17, 16, 16, 0.907);
 }
 
 .cards {
@@ -315,7 +309,7 @@ background-color: transparent;
   padding: 20px 10px;
 }
 
-.details>.position {
+.details > .position {
   color: #ffffff;
   font-weight: 600;
   font-size: 18px;
@@ -323,7 +317,7 @@ background-color: transparent;
   margin-top: 2px;
 }
 
-.details>.name {
+.details > .name {
   text-align: center;
   color: #a0a0a0;
   font-size: 15px;
@@ -337,7 +331,6 @@ background-color: transparent;
   background-color: #151320;
   border: #151320 5px solid;
   padding-bottom: 8%;
-
 }
 
 .student-sub-container {
@@ -364,10 +357,8 @@ background-color: transparent;
   height: 350px;
   margin: 30px;
   border-radius: 10px;
-  box-shadow:
-    0 0 5px rgba(40, 38, 38, 0.871),
-    0px 0.5px 0 rgba(40, 36, 36, 0.832),
-    0 0 10px rgba(17, 16, 16, 0.907);
+  box-shadow: 0 0 5px rgba(40, 38, 38, 0.871),
+    0px 0.5px 0 rgba(40, 36, 36, 0.832), 0 0 10px rgba(17, 16, 16, 0.907);
 }
 
 .student-cards {
@@ -397,7 +388,6 @@ background-color: transparent;
   font-size: 60px;
   text-align: center;
   margin: 0;
-
 }
 
 .student-name {
@@ -406,7 +396,6 @@ background-color: transparent;
   font-size: 20px;
   margin: 0;
   font-weight: 400;
-
 }
 
 /* ----- Maps ----- */
@@ -415,7 +404,6 @@ background-color: transparent;
   border-top: #151320 5px solid;
   padding-bottom: 8%;
   padding-top: 5%;
-
 }
 
 .container-map {
@@ -431,7 +419,6 @@ iframe {
   height: 450px;
   border-radius: 20px;
 }
-
 
 /* ----- Contect Us Section ----- */
 .contact-us {
@@ -471,22 +458,22 @@ iframe {
 /* -- Hovers fot Icons -- */
 /* Facebook */
 .fa-square-facebook:hover {
-  color: #4267B2;
+  color: #4267b2;
 }
 
 /* Youtube */
 .fa-youtube:hover {
-  color: #FF0000;
+  color: #ff0000;
 }
 
 /* Twitter */
 .fa-twitter:hover {
-  color: #1DA1F2;
+  color: #1da1f2;
 }
 
 /* LinkedIn */
 .fa-linkedin:hover {
-  color: #0A66C2;
+  color: #0a66c2;
 }
 
 /* GitHub */
@@ -519,17 +506,19 @@ iframe {
   width: 7rem;
   height: 5px;
   border-radius: 5px;
-  background: linear-gradient(90deg,
-      rgba(222, 67, 134, 1) 0%,
-      rgba(176, 80, 190, 1) 45%,
-      rgba(100, 74, 212, 1) 85%);
+  background: linear-gradient(
+    90deg,
+    rgba(222, 67, 134, 1) 0%,
+    rgba(176, 80, 190, 1) 45%,
+    rgba(100, 74, 212, 1) 85%
+  );
   margin: 0 auto;
   margin-bottom: 60px;
 }
 
 /* ----- Footer ----- */
 footer {
-  background:  #5aa49e;
+  background: #5aa49e;
   border-radius: 20px 20px 0 0;
 }
 
@@ -546,14 +535,9 @@ footer {
   justify-content: center;
 }
 
-
-
-
-
 /* *--------- Responsive Code --------------- */
 
 @media screen and (max-width: 900px) {
-
   /* ----- Header ----- */
 
   /* Changing flex direction from default to column to set content items vertically*/
@@ -588,13 +572,12 @@ footer {
   }
 }
 
-
 /* ----- Pop-up ----- */
-@media (max-width:600px) {
+@media (max-width: 600px) {
   .popup {
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
   }
 
   .popupBox {
@@ -618,7 +601,7 @@ footer {
 }
 
 /* ----- Hall of fame ----- */
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .student-card {
     margin-left: auto;
     margin-right: auto;
@@ -643,9 +626,7 @@ footer {
 
   .student-rank {
     font-size: 40px;
-
   }
-
 
   /* ----- About BPUT ----- */
   .aboutus-box {
@@ -664,7 +645,6 @@ footer {
   .img1 {
     width: 100%;
     margin-bottom: 10px;
-
   }
 
   .aboutus-heading {
@@ -675,7 +655,6 @@ footer {
     margin-top: -8%;
     margin-left: 2.5%;
     margin-right: 2.5%;
-
   }
 
   /* ----- Leader Section ----- */
@@ -687,11 +666,11 @@ footer {
     height: 300px;
   }
 
-  .details>.position {
+  .details > .position {
     font-size: 15px;
   }
 
-  .details>.name {
+  .details > .name {
     font-size: 14px;
     line-height: 20px;
     font-weight: 500;
@@ -699,7 +678,6 @@ footer {
 }
 
 @media (max-width: 800px) {
-
   /* ----- Contact Us Section ----- */
   .contact-us {
     flex-direction: column;
@@ -712,7 +690,6 @@ footer {
   }
 }
 
-
 /* ---- Navigation Bar ---- */
 @media screen and (max-width: 900px) {
   .topnav a:not(:first-child) {
@@ -724,7 +701,6 @@ footer {
     display: block;
   }
 }
-
 
 @media screen and (max-width: 900px) {
   .topnav.responsive {
